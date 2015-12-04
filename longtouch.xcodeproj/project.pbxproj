@@ -14,6 +14,8 @@
 		3C3DFF981BF22889007CAFD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C3DFF961BF22889007CAFD8 /* LaunchScreen.storyboard */; };
 		3C3DFFA31BF22889007CAFD8 /* longtouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3DFFA21BF22889007CAFD8 /* longtouchTests.swift */; };
 		3C3DFFAE1BF22889007CAFD8 /* longtouchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3DFFAD1BF22889007CAFD8 /* longtouchUITests.swift */; };
+		3CAE430C1BF4E1AA00467011 /* circleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAE430B1BF4E1AA00467011 /* circleInput.swift */; settings = {ASSET_TAGS = (); }; };
+		3CAE430E1BF4E2BC00467011 /* pushButtonCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAE430D1BF4E2BC00467011 /* pushButtonCircle.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3C3DFFA91BF22889007CAFD8 /* longtouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = longtouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C3DFFAD1BF22889007CAFD8 /* longtouchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longtouchUITests.swift; sourceTree = "<group>"; };
 		3C3DFFAF1BF22889007CAFD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CAE430B1BF4E1AA00467011 /* circleInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = circleInput.swift; sourceTree = "<group>"; };
+		3CAE430D1BF4E2BC00467011 /* pushButtonCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pushButtonCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		3C3DFF811BF22889007CAFD8 = {
 			isa = PBXGroup;
 			children = (
+				3CAE430D1BF4E2BC00467011 /* pushButtonCircle.swift */,
 				3C3DFF8C1BF22889007CAFD8 /* longtouch */,
 				3C3DFFA11BF22889007CAFD8 /* longtouchTests */,
 				3C3DFFAC1BF22889007CAFD8 /* longtouchUITests */,
@@ -99,6 +104,7 @@
 			children = (
 				3C3DFF8D1BF22889007CAFD8 /* AppDelegate.swift */,
 				3C3DFF8F1BF22889007CAFD8 /* ViewController.swift */,
+				3CAE430B1BF4E1AA00467011 /* circleInput.swift */,
 				3C3DFF911BF22889007CAFD8 /* Main.storyboard */,
 				3C3DFF941BF22889007CAFD8 /* Assets.xcassets */,
 				3C3DFF961BF22889007CAFD8 /* LaunchScreen.storyboard */,
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CAE430C1BF4E1AA00467011 /* circleInput.swift in Sources */,
 				3C3DFF901BF22889007CAFD8 /* ViewController.swift in Sources */,
 				3C3DFF8E1BF22889007CAFD8 /* AppDelegate.swift in Sources */,
+				3CAE430E1BF4E2BC00467011 /* pushButtonCircle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +494,7 @@
 				3C3DFFB41BF22889007CAFD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C3DFFB51BF22889007CAFD8 /* Build configuration list for PBXNativeTarget "longtouchTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +503,7 @@
 				3C3DFFB71BF22889007CAFD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C3DFFB81BF22889007CAFD8 /* Build configuration list for PBXNativeTarget "longtouchUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +512,7 @@
 				3C3DFFBA1BF22889007CAFD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

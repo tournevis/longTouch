@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,36 +16,102 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="impression2" translatesAutoresizingMaskIntoConstraints="NO" id="TVo-8l-q5P" userLabel="secondImage">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="impression1" translatesAutoresizingMaskIntoConstraints="NO" id="2Yt-yX-yZR" userLabel="firstImage">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="impression1" translatesAutoresizingMaskIntoConstraints="NO" id="2Yt-yX-yZR" userLabel="firstImage">
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="impression2" translatesAutoresizingMaskIntoConstraints="NO" id="TVo-8l-q5P" userLabel="secondImage">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="impression1" translatesAutoresizingMaskIntoConstraints="NO" id="IFq-w1-yOE" userLabel="blurImage">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yug-fY-e4E" userLabel="secondBlurImage">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cSO-V4-p6y" userLabel="thirImage">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9SG-rt-Ma5" customClass="pushButtonCircle" customModule="longtouch" customModuleProvider="target">
+                                <rect key="frame" x="164" y="191" width="53" height="53"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="favoriteColor">
+                                        <color key="value" red="1" green="0.76179346801467651" blue="0.1586992492859336" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yhK-0v-KGd" customClass="pushButtonCircle" customModule="longtouch" customModuleProvider="target">
+                                <rect key="frame" x="354" y="443" width="53" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="JxD-03-iWa"/>
+                                    <constraint firstAttribute="width" constant="53" id="QqG-Pz-aX8"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="favoriteColor">
+                                        <color key="value" red="1" green="0.76179346800000003" blue="0.15869924930000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="taN-ql-uvE" customClass="pushButtonCircle" customModule="longtouch" customModuleProvider="target">
+                                <rect key="frame" x="345" y="108" width="53" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="Hqf-nq-baw"/>
+                                    <constraint firstAttribute="width" constant="53" id="Qcu-j0-cu6"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="favoriteColor">
+                                        <color key="value" red="1" green="0.76179346800000003" blue="0.15869924930000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="TITLE" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ntc-UK-s43">
+                                <rect key="frame" x="195" y="298" width="240" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dAy-dp-WpX">
+                                <rect key="frame" x="195" y="339" width="240" height="128"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="yug-fY-e4E" firstAttribute="bottom" secondItem="cSO-V4-p6y" secondAttribute="bottom" id="2LG-d9-X1h"/>
                             <constraint firstItem="2Yt-yX-yZR" firstAttribute="top" secondItem="TVo-8l-q5P" secondAttribute="top" id="3Zr-lp-vkk"/>
+                            <constraint firstItem="yug-fY-e4E" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="4j7-AQ-aZK"/>
                             <constraint firstItem="IFq-w1-yOE" firstAttribute="leading" secondItem="TVo-8l-q5P" secondAttribute="leading" id="5F3-lN-0TH"/>
                             <constraint firstItem="2Yt-yX-yZR" firstAttribute="top" secondItem="IFq-w1-yOE" secondAttribute="top" id="7qw-fF-e7R"/>
                             <constraint firstAttribute="trailing" secondItem="TVo-8l-q5P" secondAttribute="trailing" id="BfX-j4-K32"/>
                             <constraint firstItem="2Yt-yX-yZR" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="CrF-6b-ZTn"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yhK-0v-KGd" secondAttribute="bottom" constant="104" id="DoC-oN-ict"/>
+                            <constraint firstItem="yug-fY-e4E" firstAttribute="top" secondItem="TVo-8l-q5P" secondAttribute="top" id="Ko5-R6-mcX"/>
+                            <constraint firstItem="yug-fY-e4E" firstAttribute="top" secondItem="cSO-V4-p6y" secondAttribute="top" id="Lhm-YJ-ip8"/>
                             <constraint firstItem="2Yt-yX-yZR" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Mma-Wm-gcy"/>
                             <constraint firstItem="2Yt-yX-yZR" firstAttribute="trailing" secondItem="IFq-w1-yOE" secondAttribute="trailing" id="Nsr-Su-Wbz"/>
                             <constraint firstItem="2Yt-yX-yZR" firstAttribute="leading" secondItem="IFq-w1-yOE" secondAttribute="leading" id="PyV-Fd-fkL"/>
+                            <constraint firstItem="taN-ql-uvE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="88" id="VbN-Wo-vip"/>
+                            <constraint firstAttribute="trailing" secondItem="taN-ql-uvE" secondAttribute="trailing" constant="202" id="WfQ-mP-7Pf"/>
+                            <constraint firstItem="yug-fY-e4E" firstAttribute="trailing" secondItem="cSO-V4-p6y" secondAttribute="trailing" id="Xr6-l8-rfQ"/>
                             <constraint firstItem="IFq-w1-yOE" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="YW4-u4-cS3"/>
                             <constraint firstItem="2Yt-yX-yZR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="dy1-yp-xWU"/>
+                            <constraint firstItem="yug-fY-e4E" firstAttribute="leading" secondItem="cSO-V4-p6y" secondAttribute="leading" id="ecB-h8-fJm"/>
                             <constraint firstItem="IFq-w1-yOE" firstAttribute="trailing" secondItem="TVo-8l-q5P" secondAttribute="trailing" id="j8N-0g-dpT"/>
+                            <constraint firstItem="yug-fY-e4E" firstAttribute="leading" secondItem="TVo-8l-q5P" secondAttribute="leading" id="lXN-RW-a0g"/>
+                            <constraint firstAttribute="trailing" secondItem="yhK-0v-KGd" secondAttribute="trailing" constant="193" id="lgs-QA-6WZ"/>
+                            <constraint firstItem="yug-fY-e4E" firstAttribute="trailing" secondItem="IFq-w1-yOE" secondAttribute="trailing" id="mz0-b8-3WP"/>
                             <constraint firstItem="TVo-8l-q5P" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="yWp-xZ-CSF"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="blurFirstImage" destination="IFq-w1-yOE" id="t8s-le-8ie"/>
+                        <outlet property="blurSecondImage" destination="yug-fY-e4E" id="sxn-BQ-JRA"/>
+                        <outlet property="button1" destination="9SG-rt-Ma5" id="8az-i7-f5X"/>
                         <outlet property="firstImage" destination="2Yt-yX-yZR" id="O4f-Ja-60r"/>
+                        <outlet property="myTitle" destination="Ntc-UK-s43" id="qWV-Qz-KUF"/>
                         <outlet property="secondImage" destination="TVo-8l-q5P" id="jiT-Wd-svD"/>
+                        <outlet property="textView" destination="dAy-dp-WpX" id="oFj-wU-0lc"/>
+                        <outlet property="thirdImage" destination="cSO-V4-p6y" id="MQB-Gh-HnD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -57,4 +123,5 @@
         <image name="impression1" width="750" height="1334"/>
         <image name="impression2" width="750" height="1334"/>
     </resources>
+    <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
 </document>
